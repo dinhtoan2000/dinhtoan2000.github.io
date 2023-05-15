@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #919294;
+}
+
+a {
+  text-decoration: none;
+  color: #919294;
+}
+
+h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  margin-top: 14px;
+  color: #ffffff;
+}
+
+ul li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+ul li:hover a {
+  color: pink;
+}
+.footer {
+  background-color: #464646;
+  width: 350px;
+  margin: 5px;
+  padding: 15px;
+  line-height: 2;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon li {
+  margin: 0 auto;
+  font-size: 30px;
+}
