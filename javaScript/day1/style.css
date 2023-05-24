@@ -1,0 +1,11 @@
+.box1{
+    background-color: blue;
+        position: relative;
+}
+p{
+    position: absolute;
+}
+
+h2{
+    position: relative;
+}
