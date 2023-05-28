@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgb(230, 229, 227);
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 175px;
+  font-size: 24px;
+}
+
+header .nav .menu ul {
+  display: flex;
+  gap: 40px;
+}
+
+header .nav .menu ul a {
+  color: #fca1a1;
+}
+
+header .nav .menu ul li:hover a {
+  color: white;
+  background-color: #3cb815;
+  border-radius: 10px;
+}
+
+.nav .info {
+  display: flex;
+  gap: 30px;
+}
+
+.nav .info a {
+  background-color: #3cb815;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* intro */
+.container{
+    position: relative;
+    top: 200px;
+    margin: 0 100px;
+    display: flex;
+}
+.intro {
+    
+    width: 500px;
+    display: flex;
+    background-color: #F6F6F6;
+    margin-top: 20px;
+
+}
+
+.intro img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0,0,0,.3);
+    overflow: hidden;
+}
+
+.intro-content{
+    padding: 0 30px;
+}
+
+.intro-content h6 {
+     color: #777;
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+    text-transform: uppercase;
+}
+.intro-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    color: #72b626;
+    text-transform: uppercase;
+}
+.intro-content h1 span{
+    color: #666;
+    font-weight: 600;
+}
+
+.intro-content a{
+    border-radius: 26px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 40px;
+    outline: none;
+    overflow: hidden;
+    display: inline-block;
+    letter-spacing: .5px;
+    border: 0;
+    background-color: #72b626;
+}
+
+.intro-content a:hover{
+    background-color: #c6fa93;
+    color: #000;
+}
